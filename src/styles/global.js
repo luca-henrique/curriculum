@@ -1,9 +1,6 @@
 import { createGlobalStyle } from "styled-components";
-import "react-toastify/dist/ReactToastify.css";
-import "react-redux-toastr/lib/css/react-redux-toastr.min.css";
 
 export default createGlobalStyle`
-    @import 'react-redux-toastr/src/styles/index';
 
 
   *{
