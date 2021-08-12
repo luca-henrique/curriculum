@@ -1,6 +1,5 @@
 import { call, put } from "redux-saga/effects";
 import { push } from "connected-react-router";
-import { toastr } from "react-redux-toastr";
 import api from "~/service/api";
 
 import AuthActions from "../ducks/auth";
