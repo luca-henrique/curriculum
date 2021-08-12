@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/curriculum/static/js/main.589056cb.chunk.js",
+    "main.js.map": "/curriculum/static/js/main.589056cb.chunk.js.map",
+    "runtime-main.js": "/curriculum/static/js/runtime-main.8cbb7332.js",
+    "runtime-main.js.map": "/curriculum/static/js/runtime-main.8cbb7332.js.map",
+    "static/css/2.8b275f32.chunk.css": "/curriculum/static/css/2.8b275f32.chunk.css",
+    "static/js/2.fec92795.chunk.js": "/curriculum/static/js/2.fec92795.chunk.js",
+    "static/js/2.fec92795.chunk.js.map": "/curriculum/static/js/2.fec92795.chunk.js.map",
+    "index.html": "/curriculum/index.html",
+    "precache-manifest.f333e2c7df2e8419cdc250e01dbf5a69.js": "/curriculum/precache-manifest.f333e2c7df2e8419cdc250e01dbf5a69.js",
+    "service-worker.js": "/curriculum/service-worker.js",
+    "static/css/2.8b275f32.chunk.css.map": "/curriculum/static/css/2.8b275f32.chunk.css.map",
+    "static/js/2.fec92795.chunk.js.LICENSE.txt": "/curriculum/static/js/2.fec92795.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/curriculum/static/media/roboto-vietnamese-400-normal.a8be5b46.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8cbb7332.js",
+    "static/css/2.8b275f32.chunk.css",
+    "static/js/2.fec92795.chunk.js",
+    "static/js/main.589056cb.chunk.js"
+  ]
+}
