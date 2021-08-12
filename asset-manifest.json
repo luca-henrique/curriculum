@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/github-page/static/js/main.6ac24a8c.chunk.js",
-    "main.js.map": "/github-page/static/js/main.6ac24a8c.chunk.js.map",
-    "runtime-main.js": "/github-page/static/js/runtime-main.a7f9c1bf.js",
-    "runtime-main.js.map": "/github-page/static/js/runtime-main.a7f9c1bf.js.map",
-    "static/js/2.ae91c996.chunk.js": "/github-page/static/js/2.ae91c996.chunk.js",
-    "static/js/2.ae91c996.chunk.js.map": "/github-page/static/js/2.ae91c996.chunk.js.map",
-    "static/js/3.71849508.chunk.js": "/github-page/static/js/3.71849508.chunk.js",
-    "static/js/3.71849508.chunk.js.map": "/github-page/static/js/3.71849508.chunk.js.map",
-    "index.html": "/github-page/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/github-page/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.ae91c996.chunk.js.LICENSE.txt": "/github-page/static/js/2.ae91c996.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/github-page/static/media/logo.6ce24c58.svg"
+    "main.css": "/curriculum/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/curriculum/static/js/main.6ac24a8c.chunk.js",
+    "main.js.map": "/curriculum/static/js/main.6ac24a8c.chunk.js.map",
+    "runtime-main.js": "/curriculum/static/js/runtime-main.fb4d6466.js",
+    "runtime-main.js.map": "/curriculum/static/js/runtime-main.fb4d6466.js.map",
+    "static/js/2.ae91c996.chunk.js": "/curriculum/static/js/2.ae91c996.chunk.js",
+    "static/js/2.ae91c996.chunk.js.map": "/curriculum/static/js/2.ae91c996.chunk.js.map",
+    "static/js/3.71849508.chunk.js": "/curriculum/static/js/3.71849508.chunk.js",
+    "static/js/3.71849508.chunk.js.map": "/curriculum/static/js/3.71849508.chunk.js.map",
+    "index.html": "/curriculum/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/curriculum/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.ae91c996.chunk.js.LICENSE.txt": "/curriculum/static/js/2.ae91c996.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/curriculum/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7f9c1bf.js",
+    "static/js/runtime-main.fb4d6466.js",
     "static/js/2.ae91c996.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
     "static/js/main.6ac24a8c.chunk.js"
