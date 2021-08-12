@@ -31,36 +31,36 @@ const Home = () => {
       <Header>
         <Name>Lucas Henrique Paes de Carvalho</Name>
         <Role>Desenvolvedor Frontend</Role>
+
+        <ContactContainer>
+          <ContactContainerRow>
+            <EmailIcon fontSize="small" />
+            <Contact>lukas.paes18@gmail.com</Contact>
+          </ContactContainerRow>
+
+          <ContactContainerRow>
+            <RoomIcon fontSize="small" />
+            <Contact>Arcoverde-PE, Brasil</Contact>
+          </ContactContainerRow>
+
+          <ContactContainerRow>
+            <WhatsAppIcon fontSize="small" />
+            <Contact>+55 87 9 98093765</Contact>
+          </ContactContainerRow>
+
+          <ContactContainerRow>
+            <LinkedInIcon fontSize="small" />
+            <Contact>
+              https://www.linkedin.com/in/lucas-h-paes-de-carvalho-a5951815a/
+            </Contact>
+          </ContactContainerRow>
+
+          <ContactContainerRow>
+            <GitHubIcon fontSize="small" />
+            <Contact>luca-henrique</Contact>
+          </ContactContainerRow>
+        </ContactContainer>
       </Header>
-
-      <ContactContainer>
-        <ContactContainerRow>
-          <EmailIcon fontSize="small" />
-          <Contact>lukas.paes18@gmail.com</Contact>
-        </ContactContainerRow>
-
-        <ContactContainerRow>
-          <RoomIcon fontSize="small" />
-          <Contact>Arcoverde-PE, Brasil</Contact>
-        </ContactContainerRow>
-
-        <ContactContainerRow>
-          <WhatsAppIcon fontSize="small" />
-          <Contact>+55 87 9 98093765</Contact>
-        </ContactContainerRow>
-
-        <ContactContainerRow>
-          <LinkedInIcon fontSize="small" />
-          <Contact>
-            https://www.linkedin.com/in/lucas-h-paes-de-carvalho-a5951815a/
-          </Contact>
-        </ContactContainerRow>
-
-        <ContactContainerRow>
-          <GitHubIcon fontSize="small" />
-          <Contact>luca-henrique</Contact>
-        </ContactContainerRow>
-      </ContactContainer>
 
       <Section>
         <TitleSection>Experiências</TitleSection>
