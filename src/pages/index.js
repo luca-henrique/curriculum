@@ -1,4 +1,12 @@
 import React from "react";
+
+import GitHubIcon from "@material-ui/icons/GitHub";
+import EmailIcon from "@material-ui/icons/Email";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import WhatsAppIcon from "@material-ui/icons/WhatsApp";
+import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
+import RoomIcon from "@material-ui/icons/Room";
+
 import {
   Container,
   Header,
@@ -12,6 +20,9 @@ import {
   Enterprise,
   ExperienceDate,
   Description,
+  Skills,
+  SkillsContainer,
+  ContactContainerRow,
 } from "./style";
 
 const Home = () => {
@@ -23,12 +34,32 @@ const Home = () => {
       </Header>
 
       <ContactContainer>
-        <Contact>lukas.paes18@gmail.com</Contact>
-        <Contact>Arcoverde-PE, Brasil</Contact>
-        <Contact>+55 87 9 98093765</Contact>
-        <Contact>
-          https://www.linkedin.com/in/lucas-h-paes-de-carvalho-a5951815a/
-        </Contact>
+        <ContactContainerRow>
+          <EmailIcon fontSize="small" />
+          <Contact>lukas.paes18@gmail.com</Contact>
+        </ContactContainerRow>
+
+        <ContactContainerRow>
+          <RoomIcon fontSize="small" />
+          <Contact>Arcoverde-PE, Brasil</Contact>
+        </ContactContainerRow>
+
+        <ContactContainerRow>
+          <WhatsAppIcon fontSize="small" />
+          <Contact>+55 87 9 98093765</Contact>
+        </ContactContainerRow>
+
+        <ContactContainerRow>
+          <LinkedInIcon fontSize="small" />
+          <Contact>
+            https://www.linkedin.com/in/lucas-h-paes-de-carvalho-a5951815a/
+          </Contact>
+        </ContactContainerRow>
+
+        <ContactContainerRow>
+          <GitHubIcon fontSize="small" />
+          <Contact>luca-henrique</Contact>
+        </ContactContainerRow>
       </ContactContainer>
 
       <Section>
@@ -91,6 +122,54 @@ const Home = () => {
           do cabeamento de fibra optica em toda cidade, usando Mapbox para a
           renderização do mapa,usadas bibliotecas como redux, material-ui,styled
           components,react router dom , axios.
+        </Description>
+      </Section>
+
+      <Section>
+        <TitleSection>Skills</TitleSection>
+        <SkillsContainer>
+          <Skills>HTML</Skills>
+          <Skills>CSS</Skills>
+          <Skills>JavaScript</Skills>
+
+          <Skills>ReactJs</Skills>
+          <Skills>React Native</Skills>
+
+          <Skills>NodeJs</Skills>
+          <Skills>AdonisJs</Skills>
+          <Skills>Java</Skills>
+
+          <Skills>OOP</Skills>
+
+          <Skills>Mysql</Skills>
+
+          <Skills>SQL</Skills>
+          <Skills>Git</Skills>
+          <Skills>Redux</Skills>
+          <Skills>Styled Components</Skills>
+
+          <Skills>Mongodb</Skills>
+          <Skills>Mongoose</Skills>
+        </SkillsContainer>
+      </Section>
+
+      <Section>
+        <TitleSection>Open Source</TitleSection>
+
+        <ExperienceTitle>Ecolog</ExperienceTitle>
+        <Description>
+          App open source desenvolvido com react native para disponiabilizar
+          pontos de coletas de lixo, usando google maps para a renderização do
+          mapa,usadas bibliotecas como redux, material-ui,styled components,
+          axios.
+        </Description>
+
+        <ExperienceTitle>Gsva-app</ExperienceTitle>
+        <Description>
+          App open source desenvolvido com react native para emergencia para
+          socorrer pessoas na cidade de Arcoverde, usando google maps para a
+          renderização do mapa,usadas bibliotecas como redux, material-ui,styled
+          components, axios.
         </Description>
       </Section>
     </Container>

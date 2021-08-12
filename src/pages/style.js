@@ -6,13 +6,14 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   justify-content: center;
-  padding: 0px 160px;
+  padding: 20px 160px;
 `;
 
 export const Header = styled.header`
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-top: 500px;
 `;
 
 export const ContactContainer = styled.section`
@@ -20,6 +21,16 @@ export const ContactContainer = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
+`;
+
+export const ContactContainerRow = styled.div`
+  margin-top: 6px;
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  align-content: center;
 `;
 
 export const Name = styled.h1`
@@ -42,25 +53,25 @@ export const Role = styled.h2`
 `;
 
 export const Contact = styled.h6`
-  margin-top: 4px;
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
   color: #000000;
+  margin-left: 5px;
 `;
 
 export const TitleSection = styled.h3`
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 22px;
   line-height: 18px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #73808d;
-
+  padding: 8px 0px;
   border-bottom: 1px solid #73808d;
 `;
 
@@ -76,13 +87,13 @@ export const ExperienceTitle = styled.h2`
   font-family: Arial;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 21px;
   color: #101214;
 `;
 
 export const Enterprise = styled.h3`
-  margin-top: 4px;
+  margin-top: 6px;
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
@@ -113,12 +124,21 @@ export const Description = styled.h5`
   width: 70%;
 `;
 
+export const SkillsContainer = styled.div`
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+`;
+
 export const Skills = styled.h5`
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
+  font-size: 18px;
   line-height: 18px;
-  text-decoration-line: underline;
   color: #101214;
+  margin-right: 30px;
+  margin-top: 10px;
 `;
