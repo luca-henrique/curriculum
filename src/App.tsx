@@ -4,7 +4,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
+
 import RoomIcon from "@material-ui/icons/Room";
 
 import {
