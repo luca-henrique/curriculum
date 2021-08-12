@@ -63,7 +63,7 @@ export const Role = styled.h2`
   }
 `;
 
-export const Contact = styled.h6`
+export const Contact = styled.a`
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
@@ -71,6 +71,10 @@ export const Contact = styled.h6`
   line-height: 18px;
   color: #000000;
   margin-left: 5px;
+
+  &:hover {
+    color: #2aaee7;
+  }
 
   @media (max-width: 490px) {
     white-space: nowrap;
@@ -90,6 +94,11 @@ export const TitleSection = styled.h3`
   color: #73808d;
   padding: 8px 0px;
   border-bottom: 1px solid #73808d;
+
+  @media (max-width: 490px) {
+    font-size: 18px;
+    line-height: 16px;
+  }
 `;
 
 export const Section = styled.section`
@@ -138,6 +147,9 @@ export const Description = styled.h5`
   line-height: 18px;
   color: #101214;
   width: 70%;
+
+  text-align: justify;
+  text-justify: inter-word;
 
   @media (max-width: 490px) {
     width: 90%;

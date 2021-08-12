@@ -45,19 +45,29 @@ const Home = () => {
 
           <ContactContainerRow>
             <WhatsAppIcon fontSize="small" />
-            <Contact>+55 87 9 98093765</Contact>
+            <Contact
+              href="https://api.whatsapp.com/send?phone=5587998093765&text=%C3%B3pa"
+              target="_blank"
+            >
+              +55 87 9 98093765
+            </Contact>
           </ContactContainerRow>
 
           <ContactContainerRow>
             <LinkedInIcon fontSize="small" />
-            <Contact>
+            <Contact
+              href="https://www.linkedin.com/in/lucas-h-paes-de-carvalho-a5951815a/"
+              target="_blank"
+            >
               https://www.linkedin.com/in/lucas-h-paes-de-carvalho-a5951815a/
             </Contact>
           </ContactContainerRow>
 
           <ContactContainerRow>
             <GitHubIcon fontSize="small" />
-            <Contact>luca-henrique</Contact>
+            <Contact href="https://github.com/luca-henrique" target="_blank">
+              luca-henrique
+            </Contact>
           </ContactContainerRow>
         </ContactContainer>
       </Header>
