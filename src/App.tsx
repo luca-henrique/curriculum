@@ -40,7 +40,7 @@ const Home = () => {
 
           <ContactContainerRow>
             <RoomIcon fontSize="small" />
-            <Contact>Arcoverde-PE, Brasil</Contact>
+            <Contact>Arcoverde-PE, Brasil.</Contact>
           </ContactContainerRow>
 
           <ContactContainerRow>
@@ -96,7 +96,7 @@ const Home = () => {
           manutenção de novos aplicativos diretamente ligados a Unimed para
           consultas via video chamadas com integração com zoom, utilizando
           bibliotecas padrões como redux, material-ui,styled components,react
-          router dom , axios no frontend da aplicação
+          router dom , axios no frontend da aplicação.
         </Description>
 
         <ExperienceTitle>Desenvolvedor Full Stack Javascript</ExperienceTitle>
@@ -160,6 +160,30 @@ const Home = () => {
 
           <Skills>Mongodb</Skills>
           <Skills>Mongoose</Skills>
+        </SkillsContainer>
+      </Section>
+      <Section>
+        <TitleSection>Ferramentas</TitleSection>
+        <SkillsContainer>
+          <Skills>Visual Studio Code</Skills>
+          <Skills>Eclipse</Skills>
+          <Skills>Git</Skills>
+          <Skills>Gitlab</Skills>
+          <Skills>Github</Skills>
+          <Skills>Yarn</Skills>
+          <Skills>AWS</Skills>
+          <Skills>Postman</Skills>
+          <Skills>Insomnia</Skills>
+          <Skills>Swagger</Skills>
+          <Skills>Reactotron</Skills>
+        </SkillsContainer>
+      </Section>
+
+      <Section>
+        <TitleSection>Idiomas</TitleSection>
+        <SkillsContainer>
+          <Skills>Português - BR</Skills>
+          <Skills>Inglês - tecnico </Skills>
         </SkillsContainer>
       </Section>
 
