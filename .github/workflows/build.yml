@@ -15,9 +15,10 @@ jobs:
           node-version: "12"
       - name: npm install
         run: |
-          npm install 
+          sudo apt install yarn nodejs
+          yarn install 
           npm ci
-          npm run build
+          yarn build
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
