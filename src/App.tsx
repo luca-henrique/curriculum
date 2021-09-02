@@ -75,7 +75,7 @@ const Home = () => {
       <Section>
         <TitleSection>Experiências</TitleSection>
         <ExperienceTitle>Consultor de Software</ExperienceTitle>
-        <Enterprise>3Y Software House</Enterprise>
+        <Enterprise>3Y Software House (PJ)</Enterprise>
         <ExperienceDate>
           6 junho de 2021, atualmente, trabalhando remotamente.
         </ExperienceDate>
@@ -86,7 +86,7 @@ const Home = () => {
         </Description>
 
         <ExperienceTitle>Desenvolvedor React</ExperienceTitle>
-        <Enterprise>Meta</Enterprise>
+        <Enterprise>Meta (CLT)</Enterprise>
         <ExperienceDate>
           2 Desembro de 2020, atualmente, trabalhando remotamente.
         </ExperienceDate>
@@ -102,7 +102,7 @@ const Home = () => {
         <ExperienceTitle>Desenvolvedor Full Stack Javascript</ExperienceTitle>
         <Enterprise>CTM Consultoria</Enterprise>
         <ExperienceDate>
-          2 Janeiro de 2020, 20 de novembro, alocado na empresa.
+          2 Janeiro de 2020 á 20 de novembro de 2020, alocado na empresa.
         </ExperienceDate>
         <Description>
           Migração de sistemas legados em delphi para web com react.js e
@@ -125,7 +125,7 @@ const Home = () => {
         <ExperienceTitle>Estágio Desenvolvimento React</ExperienceTitle>
         <Enterprise>DK Telecom</Enterprise>
         <ExperienceDate>
-          7 setembro de 2019, 31 de dezembro, alocado na empresa.
+          7 setembro de 2019 á 31 de dezembro de 2019, alocado na empresa.
         </ExperienceDate>
         <Description>
           Construção aplicação web para provedor de internet e seu gerenciamento
@@ -142,6 +142,10 @@ const Home = () => {
           <Skills>CSS</Skills>
           <Skills>JavaScript</Skills>
 
+          <Skills>Bootstrap</Skills>
+          <Skills>Material-UI</Skills>
+          <Skills>Antdesign</Skills>
+
           <Skills>ReactJs</Skills>
           <Skills>React Native</Skills>
 
@@ -152,6 +156,7 @@ const Home = () => {
           <Skills>OOP</Skills>
 
           <Skills>Mysql</Skills>
+          <Skills>Postgresql</Skills>
 
           <Skills>SQL</Skills>
           <Skills>Git</Skills>
