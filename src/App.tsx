@@ -74,10 +74,29 @@ const Home = () => {
 
       <Section>
         <TitleSection>Experiências</TitleSection>
+
+        <ExperienceTitle>Desenvolvedor React Pleno</ExperienceTitle>
+        <Enterprise>Rethink</Enterprise>
+        <ExperienceDate>inicio: 02/10/2021, atualmente</ExperienceDate>
+        <Description>
+          Construindo e realizando manutenção em aplicações react.js prestando
+          serviços para emprestas de todo Brasil, utilizando bibliotecas como
+          redux, material-ui,styled components,react router dom , axios.
+        </Description>
+
+        <ExperienceTitle>Desenvolvedor React Pleno</ExperienceTitle>
+        <Enterprise>Tecla T(PJ)</Enterprise>
+        <ExperienceDate>inicio: 02/09/2021, atualmente</ExperienceDate>
+        <Description>
+          Construindo e realizando manutenção em aplicações react.js prestando
+          serviços para emprestas de todo Brasil, utilizando bibliotecas como
+          redux, material-ui,styled components,react router dom , axios.
+        </Description>
+
         <ExperienceTitle>Consultor de Software</ExperienceTitle>
         <Enterprise>3Y Software House (PJ)</Enterprise>
         <ExperienceDate>
-          6 junho de 2021, atualmente, trabalhando remotamente.
+          inicio: 6 junho de 2021 ["Prestador de serviço"]
         </ExperienceDate>
         <Description>
           Construindo e realizando manutenção em aplicações react.js prestando
@@ -87,9 +106,7 @@ const Home = () => {
 
         <ExperienceTitle>Desenvolvedor React</ExperienceTitle>
         <Enterprise>Meta (CLT)</Enterprise>
-        <ExperienceDate>
-          2 Desembro de 2020, atualmente, trabalhando remotamente.
-        </ExperienceDate>
+        <ExperienceDate>2 Desembro de 2020 até 01/09/2021.</ExperienceDate>
         <Description>
           Construindo novas aplicações web e mobile utilizando React e React
           Native como stacks, participei diretamente da construção da e
