@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import GitHubIcon from "@material-ui/icons/GitHub";
-import EmailIcon from "@material-ui/icons/Email";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import WhatsAppIcon from "@material-ui/icons/WhatsApp";
+import GitHubIcon from '@material-ui/icons/GitHub';
+import EmailIcon from '@material-ui/icons/Email';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 
-import RoomIcon from "@material-ui/icons/Room";
+import RoomIcon from '@material-ui/icons/Room';
 
 import {
   Container,
@@ -23,7 +23,7 @@ import {
   Skills,
   SkillsContainer,
   ContactContainerRow,
-} from "./style";
+} from './style';
 
 const Home = () => {
   return (
@@ -34,38 +34,38 @@ const Home = () => {
 
         <ContactContainer>
           <ContactContainerRow>
-            <EmailIcon fontSize="small" />
+            <EmailIcon fontSize='small' />
             <Contact>lukas.paes18@gmail.com</Contact>
           </ContactContainerRow>
 
           <ContactContainerRow>
-            <RoomIcon fontSize="small" />
+            <RoomIcon fontSize='small' />
             <Contact>Arcoverde-PE, Brasil.</Contact>
           </ContactContainerRow>
 
           <ContactContainerRow>
-            <WhatsAppIcon fontSize="small" />
+            <WhatsAppIcon fontSize='small' />
             <Contact
-              href="https://api.whatsapp.com/send?phone=5587998093765&text=%C3%B3pa"
-              target="_blank"
+              href='https://api.whatsapp.com/send?phone=5587998093765&text=%C3%B3pa'
+              target='_blank'
             >
               +55 87 9 98093765
             </Contact>
           </ContactContainerRow>
 
           <ContactContainerRow>
-            <LinkedInIcon fontSize="small" />
+            <LinkedInIcon fontSize='small' />
             <Contact
-              href="https://www.linkedin.com/in/lucas-h-paes-de-carvalho-a5951815a/"
-              target="_blank"
+              href='https://www.linkedin.com/in/lucas-h-paes-de-carvalho-a5951815a/'
+              target='_blank'
             >
               https://www.linkedin.com/in/lucas-h-paes-de-carvalho-a5951815a/
             </Contact>
           </ContactContainerRow>
 
           <ContactContainerRow>
-            <GitHubIcon fontSize="small" />
-            <Contact href="https://github.com/luca-henrique" target="_blank">
+            <GitHubIcon fontSize='small' />
+            <Contact href='https://github.com/luca-henrique' target='_blank'>
               luca-henrique
             </Contact>
           </ContactContainerRow>
@@ -86,7 +86,7 @@ const Home = () => {
 
         <ExperienceTitle>Desenvolvedor React Pleno</ExperienceTitle>
         <Enterprise>Tecla T(PJ)</Enterprise>
-        <ExperienceDate>inicio: 02/09/2021, atualmente</ExperienceDate>
+        <ExperienceDate>inicio: 02/09/2021, 23/12/2021</ExperienceDate>
         <Description>
           Construindo e realizando manutenção em aplicações react.js prestando
           serviços para emprestas de todo Brasil, utilizando bibliotecas como
@@ -96,7 +96,8 @@ const Home = () => {
         <ExperienceTitle>Consultor de Software</ExperienceTitle>
         <Enterprise>3Y Software House (PJ)</Enterprise>
         <ExperienceDate>
-          inicio: 6 junho de 2021 ["Prestador de serviço"]
+          inicio: 6 junho de 2021 ["Prestador de serviço, apenas quando
+          solicitado aos finais de semana"]
         </ExperienceDate>
         <Description>
           Construindo e realizando manutenção em aplicações react.js prestando
