@@ -143,7 +143,7 @@ export const Description = styled.h5`
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
   color: #101214;
   width: 70%;
