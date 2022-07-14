@@ -57,7 +57,7 @@ const data = [
       'Usando padrão de componentização do atomic design para melhor organização dos componentes',
       'Gerenciando e revisando codigo',
       'Criando atividades para sprint',
-      'Trabalhando em equipe melhorando minhas hads skills de comunicação',
+      'Trabalhando em equipe melhorando minhas soft skills de comunicação',
       'Criando projetos open sourcers',
       'Projeto de reciclagem desenvolvido com react native vice-campeão do projeto Sertão Digital que tem parceria com Porto Digital',
     ],
