@@ -14,7 +14,9 @@ export const JobInformationContainer = styled.section`
 const ExperienceItem = ({item}) => {
   return (
     <>
-      <Date>Sep. 2017 - Currently</Date>
+      <Date>
+        {item.dateStart} - {item.dateEnd}
+      </Date>
       <JobInformationContainer>
         <JobPositionTitle>{item.role}</JobPositionTitle>
         <EnterpriseName> na {item.enterprise}</EnterpriseName>

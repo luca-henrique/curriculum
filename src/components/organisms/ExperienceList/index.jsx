@@ -4,6 +4,8 @@ import {ContainerSection} from '../../atomic/Container';
 
 const data = [
   {
+    dateStart: '05/08/2021',
+    dateEnd: 'Atualmente',
     enterprise: 'Rethink',
     role: 'Desenvolvedor React Pleno',
     description: [
@@ -15,6 +17,8 @@ const data = [
     ],
   },
   {
+    dateStart: '15/04/2022',
+    dateEnd: 'Atualmente',
     enterprise: 'Softwrap',
     role: 'Desenvolvedor React Pleno',
     description: [
@@ -27,6 +31,8 @@ const data = [
     ],
   },
   {
+    dateStart: '15/02/2021',
+    dateEnd: '15/12/2021',
     enterprise: 'Tecla T',
     role: 'Desenvolvedor Full Stack',
     description: [
@@ -38,6 +44,8 @@ const data = [
     ],
   },
   {
+    dateStart: '15/06/2021',
+    dateEnd: 'Atualmente',
     enterprise: 'Web Intelligence',
     role: 'Tech Leader React',
     description: [
@@ -55,6 +63,8 @@ const data = [
     ],
   },
   {
+    dateStart: '15/06/2021',
+    dateEnd: '01/12/2021',
     enterprise: '3Y Software House (PJ)',
     role: 'Consultor de software',
     description: [
@@ -66,6 +76,8 @@ const data = [
   {
     enterprise: 'Meta (CLT)',
     role: 'Desenvolvedor React Junior',
+    dateStart: '03/12/2020',
+    dateEnd: '01/08/2021',
     description: [
       'Implementação de prototipos de alta fidelidade com react e react native',
       'Criando arquitetura do projeto',
@@ -76,6 +88,8 @@ const data = [
   {
     enterprise: 'CTM Consultoria',
     role: 'Desenvolvedor Full Stack',
+    dateStart: '02/01/2020',
+    dateEnd: '02/09/2020',
     description: [
       'Implementação de prototipos de alta fidelidade com react',
       'Criando arquitetura do projeto',
@@ -86,6 +100,8 @@ const data = [
     ],
   },
   {
+    dateStart: '02/07/2019',
+    dateEnd: '31/12/2019',
     enterprise: 'DK Telecom',
     role: 'Estágio Front End',
     description: [
