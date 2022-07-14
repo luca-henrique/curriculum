@@ -1,21 +1,21 @@
-import { AiOutlineMail, AiOutlineLinkedin, AiFillGithub } from "react-icons/ai";
+import {AiOutlineMail, AiOutlineLinkedin, AiFillGithub} from 'react-icons/ai';
 
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Icon = {
-  "icon-email": <AiOutlineMail size={20} color="#0093e9" />,
-  "icon-linkedin": <AiOutlineLinkedin size={20} color="#0093e9" />,
-  "icon-github": <AiFillGithub size={20} color="#0093e9" />,
+  'icon-email': <AiOutlineMail size={20} color=' #000' />,
+  'icon-linkedin': <AiOutlineLinkedin size={20} color=' #000' />,
+  'icon-github': <AiFillGithub size={20} color=' #000' />,
 };
 
 const Container = styled.div`
   display: flex;
-  flex-direaction: row;
+  flex-direction: row;
   align-items: center;
 `;
 
 const LableIcon = styled.label`
-  font-family: "IBM Plex Sans";
+  font-family: 'IBM Plex Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 16;
@@ -27,7 +27,7 @@ const LableIcon = styled.label`
   margin-left: 4px;
 `;
 
-const SocialIcon = ({ icon, text }) => {
+const SocialIcon = ({icon, text}) => {
   return (
     <Container>
       {Icon[icon]}

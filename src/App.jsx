@@ -13,13 +13,19 @@ const Home = () => {
     <Container>
       <HeaderSection />
       <Divider height='20px' />
-      <div style={{display: 'flex', flexDirection: 'row', gap: '20px'}}>
-        <section style={{width: '80%'}}>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          width: '100%',
+        }}
+      >
+        <section style={{width: '70%'}}>
           <SectionTitle>Experiências</SectionTitle>
           <Divider height='20px' />
           <ExperienceList />
         </section>
-        <section>
+        <section style={{width: '30%', paddingLeft: '20px'}}>
           <SectionTitle>Skills</SectionTitle>
           <SkillsList />
           <Divider height='10px' />
