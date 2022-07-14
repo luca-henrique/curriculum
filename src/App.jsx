@@ -1,37 +1,37 @@
-import { Header, Container } from "./components/Container";
-import {
-  Title,
-  SubTitle,
-  Description,
-  SectionTitle,
-} from "./components/Typography";
+import {Container, Divider} from './components/atomic/Container';
+import {SectionTitle} from './components/atomic/Typography';
 
-import SocialListIcons from "./components/SocialIconsList";
-import ExperienceList from "./components/ExperienceList";
+import ExperienceList from './components/organisms/ExperienceList';
+import SkillsList from './components/organisms/SocialList';
+import FormationList from './components/organisms/FormationList';
+import LanguagemList from './components/organisms/LanguagemList';
+
+import HeaderSection from './components/organisms/Header';
 
 const Home = () => {
   return (
     <Container>
-      <Header>
-        <Title>Lucas Carvalho</Title>
-        <SubTitle>
-          Sou desenvolvedor javascript, foco em frontend e mobile.
-        </SubTitle>
-        <Description>
-          Um desenvolvedor web apaixonado, resolvendo problemas e atento aos
-          detalhes.
-        </Description>
-        <SocialListIcons />
-      </Header>
-      <div style={{ height: "20px" }} />
-      <div style={{ display: "flex", flexDirection: "row" }}>
-        <section style={{ width: "55%" }}>
+      <HeaderSection />
+      <Divider height='20px' />
+      <div style={{display: 'flex', flexDirection: 'row', gap: '20px'}}>
+        <section style={{width: '80%'}}>
           <SectionTitle>Experiências</SectionTitle>
-          <div style={{ height: "20px" }} />
+          <Divider height='20px' />
           <ExperienceList />
         </section>
         <section>
           <SectionTitle>Skills</SectionTitle>
+          <SkillsList />
+          <Divider height='10px' />
+          <SectionTitle>Formação</SectionTitle>
+          <FormationList />
+
+          <Divider height={'10px'} />
+          <SectionTitle>Idiomas</SectionTitle>
+          <LanguagemList />
+
+          <Divider height='10px' />
+          <SectionTitle>Projetos</SectionTitle>
         </section>
       </div>
     </Container>
