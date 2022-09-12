@@ -63,7 +63,6 @@ export const Date = styled.label`
   font-size: 18px;
   line-height: 22px;
 
-  background: linear-gradient(135deg, #ff26b2 0%, #851bd9 64.06%, #3f0fff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
