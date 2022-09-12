@@ -62,11 +62,6 @@ export const Date = styled.label`
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
 `;
 
 export const DescriptionJob = styled.p`
