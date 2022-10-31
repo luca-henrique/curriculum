@@ -4,12 +4,27 @@ import {ContainerSection} from '../../atomic/Container';
 
 const data = [
   {
+    dateStart: '08/08/2022',
+    dateEnd: 'Atualmente',
+    enterprise: 'ETE Prof. Francisco Jonas Feitosa Costa',
+    role: 'Tech Leader',
+    description: [
+      'Aluno mentor da turma para o desenvolvendo extra classe',
+      'Aluno responsavel para implmentação dos projetos do programa de extensão tecnologica',
+      'Desenvolvendor do app Ecolog em react native para coleta de lixo reciclavel',
+      'PET - Prototipo de uma aplicação de Cashback focada no Comércio Local ',
+      'PET - Data Science com Dados Abertos e Privados com Python',
+      'PET - Desenvolvimento um sistema de apoio a delegacia da mulher em Arcoverde',
+    ],
+  },
+  {
     dateStart: '05/08/2021',
     dateEnd: 'Atualmente',
     enterprise: 'Rethink',
     role: 'Desenvolvedor React Pleno',
     description: [
       'Implementação de prototipos de alta fidelidade com react',
+      'Implementação de prototipos de alta fidelidade com react native',
       'Documentação do projeto',
       'Desenvolvimento com css com SASS com a ferramente Gulp',
       'Implementação de SEO',

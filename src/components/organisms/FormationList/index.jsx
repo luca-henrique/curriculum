@@ -9,6 +9,13 @@ const data = [
     graduate: 'Analise e Desenvolvimento de Sistemas',
     foundation: 'Unicesumar',
   },
+
+  {
+    dateStart: '2022',
+    dateEnt: '2023',
+    graduate: 'Técnico de Desenvolvimento de Sistemas',
+    foundation: 'ETE Prof. Francisco Jonas Feitosa Costa',
+  },
 ];
 
 const FormationList = () => {
