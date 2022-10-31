@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/curriculum/static/js/main.406a8233.chunk.js",
-    "main.js.map": "/curriculum/static/js/main.406a8233.chunk.js.map",
+    "main.js": "/curriculum/static/js/main.70b87a59.chunk.js",
+    "main.js.map": "/curriculum/static/js/main.70b87a59.chunk.js.map",
     "runtime-main.js": "/curriculum/static/js/runtime-main.336c231e.js",
     "runtime-main.js.map": "/curriculum/static/js/runtime-main.336c231e.js.map",
-    "static/js/2.a1a8f67b.chunk.js": "/curriculum/static/js/2.a1a8f67b.chunk.js",
-    "static/js/2.a1a8f67b.chunk.js.map": "/curriculum/static/js/2.a1a8f67b.chunk.js.map",
+    "static/js/2.88f2a61b.chunk.js": "/curriculum/static/js/2.88f2a61b.chunk.js",
+    "static/js/2.88f2a61b.chunk.js.map": "/curriculum/static/js/2.88f2a61b.chunk.js.map",
     "index.html": "/curriculum/index.html",
-    "static/js/2.a1a8f67b.chunk.js.LICENSE.txt": "/curriculum/static/js/2.a1a8f67b.chunk.js.LICENSE.txt"
+    "static/js/2.88f2a61b.chunk.js.LICENSE.txt": "/curriculum/static/js/2.88f2a61b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.336c231e.js",
-    "static/js/2.a1a8f67b.chunk.js",
-    "static/js/main.406a8233.chunk.js"
+    "static/js/2.88f2a61b.chunk.js",
+    "static/js/main.70b87a59.chunk.js"
   ]
 }
