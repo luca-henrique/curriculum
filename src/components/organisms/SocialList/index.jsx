@@ -8,12 +8,13 @@ const skills = [
   'Javascript',
 
   'ReactJs',
-  'ReactNative',
+  'React Native',
 
   'Express',
   'AdonisJs',
 
   'Java',
+  'Java Swing',
 
   'Mysql',
   'PostgreSql',
@@ -24,13 +25,17 @@ const skills = [
   'Webpack',
   'Styled Components',
   'Redux',
+  'Jest',
+  'Hook',
+
+  'AWS EC2',
+  'AWS LAMBDA',
+  'AWS S3',
 
   'Bootstrap',
   'Material-UI',
   'Antdesign',
   'Scrum',
-
-  'Java Swing',
 ];
 
 const SkillsList = () => {

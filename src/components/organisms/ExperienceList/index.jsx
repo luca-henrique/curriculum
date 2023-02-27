@@ -18,8 +18,29 @@ const data = [
     ],
   },
   {
-    dateStart: '05/08/2021',
+    dateStart: '15/06/2021',
     dateEnd: 'Atualmente',
+    enterprise: 'Web Intelligence',
+    role: 'Tech Leader React',
+    description: [
+      'Implementação de prototipos de alta fidelidade com react',
+      'Criando arquitetura do projeto',
+      'Criando e desenvolvendo atividades para sprints',
+      'Hospedagem do projeto',
+      'Trabalhando com styled-components para reaproveitamento de components',
+      'Usando padrão de componentização do atomic design para melhor organização dos componentes',
+      'Gerenciando e revisando codigo',
+      'Criando atividades para sprint',
+      'Trabalhando em equipe melhorando minhas soft skills de comunicação',
+      'Criando projetos open sourcers',
+      'Projeto de reciclagem desenvolvido com react native vice-campeão do projeto Sertão Digital que tem parceria com Porto Digital',
+      'Gerente projeto da fintech Berro Tech',
+      'Desenvolvedor full stack projeto da fintech Berro Tech usando tecnologias como NextJS, React Native e AdonisJs',
+    ],
+  },
+  {
+    dateStart: '05/08/2021',
+    dateEnd: '10/11/2022',
     enterprise: 'Rethink',
     role: 'Desenvolvedor React Pleno',
     description: [
@@ -33,7 +54,7 @@ const data = [
   },
   {
     dateStart: '15/04/2022',
-    dateEnd: 'Atualmente',
+    dateEnd: '2/08/2022',
     enterprise: 'Softwrap',
     role: 'Desenvolvedor React Pleno',
     description: [
@@ -58,25 +79,7 @@ const data = [
       'Hospedagem do projeto',
     ],
   },
-  {
-    dateStart: '15/06/2021',
-    dateEnd: 'Atualmente',
-    enterprise: 'Web Intelligence',
-    role: 'Tech Leader React',
-    description: [
-      'Implementação de prototipos de alta fidelidade com react',
-      'Criando arquitetura do projeto',
-      'Criando e desenvolvendo atividades para sprints',
-      'Hospedagem do projeto',
-      'Trabalhando com styled-components para reaproveitamento de components',
-      'Usando padrão de componentização do atomic design para melhor organização dos componentes',
-      'Gerenciando e revisando codigo',
-      'Criando atividades para sprint',
-      'Trabalhando em equipe melhorando minhas soft skills de comunicação',
-      'Criando projetos open sourcers',
-      'Projeto de reciclagem desenvolvido com react native vice-campeão do projeto Sertão Digital que tem parceria com Porto Digital',
-    ],
-  },
+
   {
     dateStart: '15/06/2021',
     dateEnd: '01/12/2021',
