@@ -1,11 +1,4 @@
 import ReactDOM from 'react-dom';
-import App from './App';
-import GlobalStyle from './components/atomic/GlobalStyle';
+import {App} from './App';
 
-ReactDOM.render(
-  <>
-    <App />
-    <GlobalStyle />
-  </>,
-  document.getElementById('root'),
-);
+ReactDOM.render(<App />, document.getElementById('root'));
