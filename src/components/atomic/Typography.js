@@ -4,22 +4,14 @@ export const Title = styled.h1`
   font-family: 'IBM Plex Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 44px;
-  line-height: 57px;
-
+  font-size: 32px;
   color: #222222;
 `;
 
 export const SubTitle = styled.h2`
-  background: linear-gradient(135deg, #ff26b2 0%, #851bd9 64.06%, #3f0fff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-
   font-family: 'IBM Plex Sans';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 16px;
 `;
@@ -29,7 +21,7 @@ export const Description = styled.p`
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 13px;
+  line-height: 18px;
 
   color: #222222;
   margin-top: 7px;
@@ -60,7 +52,7 @@ export const Date = styled.label`
   font-family: 'IBM Plex Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 22px;
 `;
 
@@ -87,24 +79,50 @@ export const JobPositionTitle = styled.h6`
   font-family: 'IBM Plex Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
+`;
 
-  /* grey */
+export const JobPosition = styled.h6`
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+`;
 
-  color: #999999;
+export const Enterprise = styled.h6`
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
 `;
 
 export const EnterpriseName = styled.h6`
   font-family: 'IBM Plex Sans';
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
+  color: #000;
+`;
 
-  /* grey */
+export const ProjectName = styled.h5`
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+  color: #000;
+`;
 
-  color: #999999;
+export const ProjectDescription = styled.h5`
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
 `;

@@ -14,7 +14,6 @@ export const Header = styled.header`
 export const ContainerSection = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 4px;
 `;
 
 export const StyledContainer = styled.div`

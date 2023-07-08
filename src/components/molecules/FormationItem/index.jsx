@@ -1,16 +1,16 @@
 import {JobPositionTitle, Date, EnterpriseName} from '../../atomic/Typography';
 
-import {ContainerSection} from '../../atomic/Container';
-
 const FormationItem = ({item}) => {
   return (
-    <ContainerSection>
-      <Date>
-        {item.dateStart} - {item.dateEnd}
-      </Date>
-      <JobPositionTitle>{item.graduate}</JobPositionTitle>
-      <EnterpriseName>{item.foundation}</EnterpriseName>
-    </ContainerSection>
+    <ul>
+      <ol style={{display: 'flex', flexDirection: 'row', gap: '4px'}}>
+        <JobPositionTitle>{item.graduate}</JobPositionTitle> -
+        <EnterpriseName>{item.foundation}</EnterpriseName> -
+        <Date>
+          {item.dateStart} - {item.dateEnd}
+        </Date>
+      </ol>
+    </ul>
   );
 };
 

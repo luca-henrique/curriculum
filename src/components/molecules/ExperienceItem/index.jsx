@@ -1,28 +1,40 @@
 import styled from 'styled-components';
 
-import DescriptionJobList from '../../organisms/DescriptionJobList';
-
-import {Date, JobPositionTitle, EnterpriseName} from '../../atomic/Typography';
+import {
+  Date,
+  JobPosition,
+  Enterprise,
+  ProjectDescription,
+  ProjectName,
+} from '../../atomic/Typography';
 
 export const JobInformationContainer = styled.section`
   display: flex;
   flex-direction: row;
   gap: 4px;
-  margin: 4px 0;
 `;
 
 const ExperienceItem = ({item}) => {
   return (
     <>
+      <JobInformationContainer>
+        <JobPosition>{item.role}</JobPosition>
+        <Enterprise> na {item.enterprise}</Enterprise>
+      </JobInformationContainer>
       <Date>
         {item.dateStart} - {item.dateEnd}
       </Date>
-      <JobInformationContainer>
-        <JobPositionTitle>{item.role}</JobPositionTitle>
-        <EnterpriseName> na {item.enterprise}</EnterpriseName>
-      </JobInformationContainer>
-      <DescriptionJobList data={item.description} />
-      <div style={{height: '1px', background: '#BDBDBD', margin: '6px 0'}} />
+      <div style={{marginBottom: '4px'}} />
+      {item.projects.map((project) => {
+        return (
+          <>
+            <ProjectName>{project.name}</ProjectName>
+            <div style={{marginBottom: '4px'}} />
+            <ProjectDescription>{project.description}</ProjectDescription>
+            <div style={{marginBottom: '8px'}} />
+          </>
+        );
+      })}
     </>
   );
 };

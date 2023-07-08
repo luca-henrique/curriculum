@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const DescriptionJob = styled.p`
-  font-family: "IBM Plex Sans";
+  font-family: 'IBM Plex Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -10,7 +10,7 @@ export const DescriptionJob = styled.p`
   color: #222222;
 `;
 
-const DescriptionJobItem = ({ item }) => {
+const DescriptionJobItem = ({item}) => {
   return <DescriptionJob>- {item}</DescriptionJob>;
 };
 

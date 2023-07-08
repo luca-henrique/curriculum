@@ -1,20 +1,17 @@
 import {Header} from '../../atomic/Container';
 import {Title, SubTitle, Description} from '../../atomic/Typography';
 
-import SocialListIcons from '../SocialIconsList/SocialIconsList';
-
 const HeaderSection = () => {
   return (
     <Header>
-      <Title>Lucas Carvalho</Title>
-      <SubTitle>
-        Sou desenvolvedor javascript, foco em frontend e mobile.
-      </SubTitle>
+      <Title>Lucas Henrique Paes de Carvalho</Title>
+      <SubTitle>Software engineering full stack javascript.</SubTitle>
       <Description>
-        Um desenvolvedor web apaixonado, resolvendo problemas e atento aos
-        detalhes.
+        Sou um desenvolvedor full-stack e mobile desde 2019 com experiência com
+        projetos JavaScript e TypeScript. Minhas especialidades incluem o uso de
+        frameworks e bibliotecas como ReactJS, React Native, Next.js, Express e
+        AdonisJS.
       </Description>
-      <SocialListIcons />
     </Header>
   );
 };
