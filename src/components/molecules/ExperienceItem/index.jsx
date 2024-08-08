@@ -14,7 +14,7 @@ export const JobInformationContainer = styled.section`
   gap: 4px;
 `;
 
-const ExperienceItem = ({item}) => {
+const ExperienceItem = ({ item }) => {
   return (
     <>
       <JobInformationContainer>
@@ -24,14 +24,15 @@ const ExperienceItem = ({item}) => {
       <Date>
         {item.dateStart} - {item.dateEnd}
       </Date>
-      <div style={{marginBottom: '4px'}} />
+      <ProjectDescription>{item.description}</ProjectDescription>
+      <div style={{ marginBottom: '4px' }} />
       {item.projects.map((project) => {
         return (
           <>
             <ProjectName>{project.name}</ProjectName>
-            <div style={{marginBottom: '4px'}} />
+            <div style={{ marginBottom: '4px' }} />
             <ProjectDescription>{project.description}</ProjectDescription>
-            <div style={{marginBottom: '8px'}} />
+            <div style={{ marginBottom: '8px' }} />
           </>
         );
       })}

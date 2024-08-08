@@ -1,5 +1,27 @@
 export const experience = [
   {
+    enterprise: 'Lifters Tecnologia',
+    role: 'Software Engineering React Pleno',
+    dateStart: '13/08/2023',
+    dateEnd: '08/08/2024',
+    description:
+      'Durante minha passagem pela Lifters, trabalhei no desenvolvimento dos principais projetos da empresa, que envolviam plataformas de apostas e gateways de pagamento. Usando React e Next.js, criei uma poderosa interface de usuário interativa que oferece suporte às principais funcionalidades do sistema. Também desenvolvi landing pages responsivas e otimizadas para conversão usando HTML e CSS para fornecer uma experiência de usuário tranquila em vários dispositivos.Estive envolvido em todas as etapas do desenvolvimento do site do gateway de pagamento, desde a criação até a entrega. Estabeleci a arquitetura do projeto utilizando design atômico, o que facilita a manutenção e escalabilidade além de garantir a reutilização eficiente dos componentes. Também migrei o projeto para uma versão mais recente do React, melhorando desempenho, segurança e facilidade de manutenção. Ao longo do processo, implementei refatorações e boas práticas de desenvolvimento para melhorar o código.',
+    projects: [
+      {
+        name: 'Orion - Base para casas de apostas[Obabet,PixBet, VaiDeBet]',
+        description:
+          'Trabalhei com ReactJS, Redux para gerenciamento de estado, React-Router-Dom para navegação, SASS para estilização, e WebSockets para comunicação em tempo real. Também integrei soluções de terceiros como Aleaplay e Pragmatic para ampliar as funcionalidades da plataforma',
+        link: '',
+      },
+      {
+        name: 'Pay365 - Gateway de pagamentos',
+        description:
+          'Contribuí desde a fase inicial de arquitetura da aplicação utilizando Next.js, garantindo uma base sólida e escalável para o projeto, implementei o design e a estilização da aplicação com Stitches, assegurando uma interface de usuário moderna e responsiva,utilizeI axios para consumo eficiente de APIs, incluindo a configuração e otimização das rotas e endpoints da API do Next.js, desenvolvi o gerenciamento de estado utilizando useContext, implementando um sistema de autenticação com login de dois fatores para aumentar a segurança dos usuários, além de realizar revisões de código para garantir a qualidade e consistência do código entregue',
+        link: '',
+      },
+    ],
+  },
+  {
     dateStart: '15/06/2021',
     dateEnd: 'Atualmente',
     enterprise: 'Web Intelligence',
