@@ -22,8 +22,8 @@ export const experience = [
     ],
   },
   {
-    dateStart: '15/06/2021',
-    dateEnd: 'Atualmente',
+    dateStart: '12/2022',
+    dateEnd: '08/2023',
     enterprise: 'Web Intelligence',
     role: 'MEI',
     description:
@@ -65,7 +65,20 @@ export const experience = [
           'Fui contratado para construir um site que permita à empresa gerenciar suas obras de forma eficiente. Estou utilizando tecnologias como React.js, Styled Components, Redux, Redux Sagas e Axios para desenvolver essa aplicação. Com essas ferramentas, estou criando um site moderno, responsivo e altamente funcional, que facilitará o acompanhamento e o controle das obras da empresa. Estou comprometido em entregar um produto de alta qualidade, atendendo às necessidades específicas da empresa e garantindo uma experiência de usuário excepcional.',
         link: '',
       },
+      {
+        name: 'Agille Invest',
+        description:
+          'Desenvolvi uma landing page para a empresa Agille Invest, apresentando de forma simples e impactante os valores da empresa. Também criei uma área administrativa para que os usuários pudessem acessar seus processos de forma organizada. Utilizei React.js e Styled Components no desenvolvimento, garantindo uma interface dinâmica e responsiva. O resultado foi uma landing page atraente e funcional, além de uma área administrativa intuitiva e segura para os usuários gerenciarem seus projetos. Estou satisfeito com o projeto e ansioso para aplicar esses conhecimentos em novos desafios.',
+        link: '',
+      },
+      {
+        name: 'Chesf',
+        description:
+          'Desenvolvi um software de gerenciamento de almoxarifado para a Chesf utilizando React.js. Trabalhei em equipe, dedicando nossos finais de semana para planejar metas e entregar o projeto. Consumimos uma API RESTful no React.js e utilizamos Styled Components para estilização. O resultado foi um software eficiente e funcional, com uma interface interativa e integrada ao backend. Estou orgulhoso do trabalho realizado e animado para enfrentar novos desafios.',
+        link: '',
+      },
     ],
+    
   },
   {
     dateStart: '08/2021',
@@ -90,32 +103,10 @@ export const experience = [
     ],
   },
   {
-    dateStart: '15/06/2021',
-    dateEnd: '01/12/2021',
-    enterprise: '3Y Software House',
-    role: 'Consultor de software',
-    description:
-      'Trabalhei como freelancer nessa empresa, dedicando meus finais de semana para complementar minha renda. Durante esse período, tive a oportunidade de participar de projetos emocionantes em parceria com a Chesf e a Agille Invest, utilizando React.js. Essa experiência me permitiu aprimorar minhas habilidades em React, CSS, HTML e JavaScript, enquanto seguia protótipos fornecidos pela empresa no Figma.Ao colaborar com a empresa, mergulhei de cabeça em projetos desafiadores, onde utilizei o React.js como base para o desenvolvimento das aplicações. Trabalhando em estreita colaboração com a equipe, segui cuidadosamente os protótipos disponibilizados no Figma, garantindo que o design e a experiência do usuário estivessem alinhados às expectativas.Durante esse período, pude aprimorar minha proficiência em React.js, a linguagem de estilização CSS e a estruturação de páginas HTML. Através desses projetos, ganhei uma experiência valiosa em desenvolvimento front-end, além de ter a oportunidade de aplicar meus conhecimentos em JavaScript.Trabalhar como freelancer nessa empresa proporcionou uma oportunidade empolgante de expandir minha experiência profissional, ao mesmo tempo que contribuía para o meu crescimento pessoal. Estou grato por ter sido envolvido em projetos desafiadores e por ter aprimorado minhas habilidades com tecnologias modernas. Estou ansioso para aplicar esses conhecimentos em futuros projetos e continuar minha jornada de desenvolvimento profissional.',
-    projects: [
-      {
-        name: 'Agille Invest',
-        description:
-          'Desenvolvi uma landing page para a empresa Agille Invest, apresentando de forma simples e impactante os valores da empresa. Também criei uma área administrativa para que os usuários pudessem acessar seus processos de forma organizada. Utilizei React.js e Styled Components no desenvolvimento, garantindo uma interface dinâmica e responsiva. O resultado foi uma landing page atraente e funcional, além de uma área administrativa intuitiva e segura para os usuários gerenciarem seus projetos. Estou satisfeito com o projeto e ansioso para aplicar esses conhecimentos em novos desafios.',
-        link: '',
-      },
-      {
-        name: 'Chesf',
-        description:
-          'Desenvolvi um software de gerenciamento de almoxarifado para a Chesf utilizando React.js. Trabalhei em equipe, dedicando nossos finais de semana para planejar metas e entregar o projeto. Consumimos uma API RESTful no React.js e utilizamos Styled Components para estilização. O resultado foi um software eficiente e funcional, com uma interface interativa e integrada ao backend. Estou orgulhoso do trabalho realizado e animado para enfrentar novos desafios.',
-        link: '',
-      },
-    ],
-  },
-  {
     enterprise: 'Meta',
     role: 'Software Engineering React',
-    dateStart: '03/12/2020',
-    dateEnd: '01/08/2021',
+    dateStart: '12/2020',
+    dateEnd: '10/2021',
     description:
       'Durante minha experiência profissional em uma grande empresa, tive a oportunidade de trabalhar em um projeto interno com uma equipe dedicada. Nesse projeto, estávamos desenvolvendo uma aplicação utilizando Vue.js, React e Redux, com o objetivo de permitir que os funcionários enviassem feedback de forma fácil e eficiente.Como parte do projeto, fui responsável por aprender e utilizar o Vue.js, bem como o React e Redux. Mergulhei no estudo dessas tecnologias, compreendendo seus conceitos fundamentais e explorando suas funcionalidades para o desenvolvimento das aplicações. Trabalhando em colaboração com a equipe, buscamos atender aos requisitos do cliente e criar interfaces amigáveis e intuitivas.',
     projects: [
@@ -137,7 +128,7 @@ export const experience = [
     enterprise: 'CTM Consultoria',
     role: 'Full Stack Engineer Javascript',
     dateStart: '01/2020',
-    dateEnd: '10/2020',
+    dateEnd: '12/2020',
     description:
       'Durante minha experiência profissional anterior, assumi o papel de desenvolvedor full stack em uma empresa, representando um marco significativo em minha carreira. Embora tenha enfrentado desafios, especialmente no desenvolvimento back end, aproveitei essas oportunidades como aprendizado e crescimento. Dediquei-me intensamente aos estudos para preencher as lacunas em minhas habilidades e investi tempo e esforço para aprimorar minha expertise técnica. Essa experiência foi um ponto de virada, permitindo-me adquirir conhecimentos valiosos e desenvolver habilidades essenciais, como gerenciamento do tempo, resiliência e capacidade de aprendizado rápido. Estou orgulhoso das conquistas alcançadas e entusiasmado para aplicar esses conhecimentos em futuros desafios e oportunidades.',
     projects: [
@@ -156,7 +147,7 @@ export const experience = [
     ],
   },
   {
-    dateStart: '07/2019',
+    dateStart: '09/2019',
     dateEnd: '12/2019',
     enterprise: 'DK Telecom',
     role: 'Trainee Front End',

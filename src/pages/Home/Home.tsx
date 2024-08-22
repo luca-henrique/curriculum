@@ -1,4 +1,5 @@
-import {ContactSection} from '../../components/organisms/ContactSection';
+import { AddressSection } from '../../components/organisms/AddressSection';
+import { ContactSection } from '../../components/organisms/ContactSection';
 import ExperienceList from '../../components/organisms/ExperienceList';
 import FormationList from '../../components/organisms/FormationList';
 import HeaderSection from '../../components/organisms/Header';
@@ -16,30 +17,30 @@ export const Home = () => {
         background: 'lightgray',
       }}
     >
-      <div style={{width: '100%', background: '#fff', padding: '40px'}}>
+      <div style={{ width: '100%', background: '#fff', padding: '40px' }}>
         <HeaderSection />
 
         <ContactSection />
 
-        <div style={{margin: '20px'}} />
+        <div style={{ margin: '20px' }} />
 
         <section>
           <h2>Formação</h2>
-          <div style={{margin: '10px'}} />
+          <div style={{ margin: '10px' }} />
           <FormationList />
         </section>
 
-        <div style={{margin: '20px'}} />
+        <div style={{ margin: '20px' }} />
 
         <section>
           <h2>Experiências de trabalho</h2>
-          <div style={{margin: '10px'}} />
+          <div style={{ margin: '10px' }} />
           <ExperienceList />
         </section>
 
         <section>
           <h2>Tecnologias</h2>
-          <div style={{margin: '10px'}} />
+          <div style={{ margin: '10px' }} />
           <SkillsList />
         </section>
       </div>

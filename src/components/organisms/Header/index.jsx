@@ -6,6 +6,11 @@ const HeaderSection = () => {
     <Header>
       <Title>Lucas Henrique Paes de Carvalho</Title>
       <SubTitle>Software engineering full stack javascript.</SubTitle>
+      <div style={{ display: 'flex', alignItems: 'center', marginTop:"2px" }}>
+          <SubTitle style={{ fontWeight: 500 }}>
+            Arcoverde - Pernambuco - Brasil
+          </SubTitle>
+        </div>
       <Description>
         Sou um desenvolvedor full-stack e mobile desde 2019 com experiência com
         projetos JavaScript e TypeScript. Minhas especialidades incluem o uso de

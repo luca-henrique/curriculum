@@ -20,11 +20,10 @@ export const Description = styled.p`
   font-family: 'IBM Plex Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
-
+  margin-top: 4px;
   color: #222222;
-  margin-top: 7px;
 
   margin-bottom: 14px;
 `;
