@@ -30,6 +30,12 @@ export const Home = () => {
           <FormationList />
         </section>
 
+        <section>
+          <h2>Tecnologias</h2>
+          <div style={{ margin: '10px' }} />
+          <SkillsList />
+        </section>
+
         <div style={{ margin: '20px' }} />
 
         <section>
@@ -38,11 +44,7 @@ export const Home = () => {
           <ExperienceList />
         </section>
 
-        <section>
-          <h2>Tecnologias</h2>
-          <div style={{ margin: '10px' }} />
-          <SkillsList />
-        </section>
+
       </div>
     </div>
   );
