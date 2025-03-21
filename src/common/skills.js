@@ -17,6 +17,9 @@ export const skills = [
   "Express",
   "AdonisJs",
 
+  "NestJS",
+  "FastApi",
+
   "Java",
   "Java Swing",
 

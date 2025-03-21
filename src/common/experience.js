@@ -10,7 +10,7 @@ export const experience = [
       {
         name: "Clickmax - Members",
         description:
-          "Desenvolvi a nova área de membros da plataforma, permitindo que clientes oferecessem cursos. Estruturei o projeto com Feature Sliced Design, TanStack e React Query, melhorando a organização e otimização do gerenciamento de estado. Esse projeto adicionou um novo serviço ao portfólio da empresa. Tecnologias: React, TanStack, React Query, FastAPI.",
+          "Desenvolvi a nova área de membros da plataforma, permitindo que clientes oferecessem cursos. Estruturei o projeto com Feature Sliced Design, TanStack e React Query, melhorando a organização e otimização do gerenciamento de estado. Esse projeto adicionou um novo serviço ao portfólio da empresa. Tecnologias: React, TanStack, React Query, FastAPI e NestJS.",
         link: "",
       },
       {
