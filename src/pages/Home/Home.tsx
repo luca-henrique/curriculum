@@ -1,4 +1,4 @@
-import { ContactSection } from '../../components/organisms/ContactSection';
+import { ContactSection } from '../../components/organisms/ContactSection/index';
 import ExperienceList from '../../components/organisms/ExperienceList';
 import FormationList from '../../components/organisms/FormationList';
 import HeaderSection from '../../components/organisms/Header';
@@ -42,8 +42,6 @@ export const Home = () => {
           <div style={{ margin: '10px' }} />
           <ExperienceList />
         </section>
-
-
       </div>
     </div>
   );
