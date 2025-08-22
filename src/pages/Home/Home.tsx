@@ -1,4 +1,3 @@
-import { AddressSection } from '../../components/organisms/AddressSection';
 import { ContactSection } from '../../components/organisms/ContactSection';
 import ExperienceList from '../../components/organisms/ExperienceList';
 import FormationList from '../../components/organisms/FormationList';
