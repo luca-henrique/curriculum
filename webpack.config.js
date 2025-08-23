@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin"); 
 const HtmlInlineCssWebpackPlugin = require('html-inline-css-webpack-plugin').default;
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = (env, argv) => {
   const isProduction = argv.mode === 'production';
@@ -23,7 +24,6 @@ module.exports = (env, argv) => {
           exclude: /node_modules/,
           use: "babel-loader",
         },
-        // 2. Adicione esta nova regra para arquivos CSS
         {
           test: /\.css$/i,
           use: [
@@ -40,6 +40,19 @@ module.exports = (env, argv) => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./public/index.html",
+      }),
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            from: 'public',
+            filter: async (resourcePath) => {
+              if (resourcePath.endsWith('index.html')) {
+                return false;
+              }
+              return true;
+            },
+          },
+        ],
       }),
       ...(isProduction ? [new MiniCssExtractPlugin({
         filename: '[name].[contenthash].css'
