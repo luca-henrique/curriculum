@@ -29,9 +29,9 @@ If you have a LaTeX distribution installed (e.g., TeX Live, MiKTeX), you can gen
 
 Feel free to reach out if you have any questions or opportunities!
 
-*   **Email:** lucas.borges@example.com
-*   **LinkedIn:** [linkedin.com/in/lucasborges](https://www.linkedin.com/in/lucasborges)
-*   **GitHub:** [github.com/your-username](https://github.com/your-username)
+*   **Email:** lukas.paes18@gmail.com
+*   **LinkedIn:** [linkedin.com/in/luca-paes](https://www.linkedin.com/in/luca-paes/)
+*   **GitHub:** [github.com/luca-henrique](https://github.com/luca-henrique)
 
 ---
 

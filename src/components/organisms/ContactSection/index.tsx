@@ -1,40 +1,33 @@
+import { Typography } from "../../atoms/typography/typography";
+import * as S from './style';
+
+const contactData = [
+  { label: "Email", value: "lukas.paes18@gmail.com", href: "mailto:lukas.paes18@gmail.com" },
+  { label: "Telefone", value: "(87) 9 9809-3765", href: "tel:+5587998093765" },
+  { label: "Github", value: "github.com/luca-henrique", href: "https://www.github.com/luca-henrique" },
+  { label: "Linkedin", value: "linkedin.com/in/luca-paes", href: "https://www.linkedin.com/in/luca-paes/" },
+];
+
 export const ContactSection = () => {
   return (
-    <section>
-      <h2>Contato</h2>
-      <div style={{ margin: "10px" }} />
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "4px",
-        }}
-      >
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <h5 style={{ fontSize: "16px" }}>Email:</h5>
-          <h5 style={{ fontWeight: 500, marginLeft: "4px" }}>
-            lukas.paes18@gmail.com
-          </h5>
-        </div>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <h5 style={{ fontSize: "16px" }}>Telefone:</h5>
-          <h5 style={{ fontWeight: 500, marginLeft: "4px" }}>
-            (87) 9 9809-3765
-          </h5>
-        </div>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <h5 style={{ fontSize: "16px" }}>Github:</h5>
-          <h5 style={{ fontWeight: 500, marginLeft: "4px" }}>
-            https://www.github.com/luca-henrique
-          </h5>
-        </div>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <h5 style={{ fontSize: "16px" }}>Linkedin:</h5>
-          <h5 style={{ fontWeight: 500, marginLeft: "4px" }}>
-            https://www.linkedin.com/in/luca-paes/
-          </h5>
-        </div>
-      </div>
-    </section>
+    <S.Section>
+      <Typography tag="h2" size="lg" weight="bold">
+        Contato
+      </Typography>
+      <S.ContactList>
+        {contactData.map((item) => (
+          <S.ContactItem key={item.label}>
+            <Typography tag="h3" size="xs" weight="bold">
+              {item.label}:
+            </Typography>
+            <S.Link href={item.href} target="_blank" rel="noopener noreferrer">
+              <Typography tag="h3" size="xs" weight="medium">
+                {item.value}
+              </Typography>
+            </S.Link>
+          </S.ContactItem>
+        ))}
+      </S.ContactList>
+    </S.Section>
   );
 };

@@ -1,6 +1,6 @@
 import LanguagemItem from '../../molecules/LanguagemItem';
 
-import {ContainerSection} from '../../atomic/Container';
+import {ContainerSection} from '../../atoms/Container';
 
 const data = ['Português (Nativo)', 'Inglês (Tecnico)'];
 

@@ -1,6 +1,6 @@
 import DescriptionJobItem from '../../molecules/DescriptionJobItem';
 
-import {ContainerSection} from '../../atomic/Container';
+import {ContainerSection} from '../../atoms/Container';
 
 const DescriptionJobList = ({data}) => {
   return (

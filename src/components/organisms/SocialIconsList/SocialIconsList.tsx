@@ -1,6 +1,6 @@
-import SocialIcon from '../../atomic/Icon';
+import SocialIcon from '../../atoms/Icon';
 
-import {ContainerSection} from '../../atomic/Container';
+import {ContainerSection} from '../../atoms/Container';
 
 const mockSocial = [
   {icon: 'icon-email', text: 'lukas.paes18@gmail.com'},
