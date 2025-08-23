@@ -1,3 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
+# Permite que todos os robôs de busca acessem todo o site.
 User-agent: *
-Disallow:
+Allow: /
+
