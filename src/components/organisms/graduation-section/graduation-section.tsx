@@ -5,6 +5,7 @@ import { Section } from '../../atoms/container/section';
 import { Typography } from '../../atoms/typography/typography';
 import { Divider } from '../../atoms/divider/divider';
 
+
 export const GraduationSection = () => {
   return (
     <Section>

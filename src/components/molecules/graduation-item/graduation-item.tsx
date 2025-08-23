@@ -10,7 +10,7 @@ interface GraduationItemProps {
 
 export const GraduationItem = ({graduate, foundation, dateStart, dateEnd}:GraduationItemProps) => {
   return (
-    <CustomContainer height={'auto'} direction='row' alignItems='start' gap={"8px"}>
+    <CustomContainer height={'auto'} direction='row' alignItems='start' gap={"8px"} data-testid="graduation-item">
         <Typography tag='h3' size='xs' weight='bold'>{graduate}</Typography>
         <Typography size='xs'>{foundation}</Typography>
         <Typography size='xs'>
